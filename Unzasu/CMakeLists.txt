@@ -23,6 +23,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(Unzasu
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+        login.h login.cpp login.ui
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Unzasu APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
