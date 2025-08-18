@@ -1,0 +1,55 @@
+
+Host Name:                 DESKTOP-7KVTEKL
+OS Name:                   Microsoft Windows 10 Pro
+OS Version:                10.0.19045 N/A Build 19045
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          DLBC-LBTC
+Registered Organization:   
+Product ID:                00330-80000-00000-AA406
+Original Install Date:     21/03/2025, 15:51:39
+System Boot Time:          18/08/2025, 07:24:37
+System Manufacturer:       LENOVO
+System Model:              20BLS00300
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: AMD64 Family 22 Model 0 Stepping 1 AuthenticAMD ~1400 Mhz
+BIOS Version:              LENOVO GSET58WW (2.03 ), 24/02/2014
+Windows Directory:         C:\WINDOWS
+System Directory:          C:\WINDOWS\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-gb;English (United Kingdom)
+Input Locale:              en-gb;English (United Kingdom)
+Time Zone:                 (UTC+00:00) Dublin, Edinburgh, Lisbon, London
+Total Physical Memory:     7,450 MB
+Available Physical Memory: 4,697 MB
+Virtual Memory: Max Size:  8,666 MB
+Virtual Memory: Available: 6,044 MB
+Virtual Memory: In Use:    2,622 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\DESKTOP-7KVTEKL
+Hotfix(s):                 11 Hotfix(s) Installed.
+                           [01]: KB5013624
+                           [02]: KB4562830
+                           [03]: KB4570334
+                           [04]: KB4577586
+                           [05]: KB4580325
+                           [06]: KB4586864
+                           [07]: KB5011048
+                           [08]: KB5015684
+                           [09]: KB5033052
+                           [10]: KB5058379
+                           [11]: KB5058526
+Network Card(s):           2 NIC(s) Installed.
+                           [01]: Realtek PCIe GbE Family Controller
+                                 Connection Name: Ethernet
+                                 Status:          Media disconnected
+                           [02]: Broadcom 802.11n Network Adapter
+                                 Connection Name: Wi-Fi
+                                 Status:          Media disconnected
+Hyper-V Requirements:      VM Monitor Mode Extensions: Yes
+                           Virtualization Enabled In Firmware: Yes
+                           Second Level Address Translation: Yes
+                           Data Execution Prevention Available: Yes
