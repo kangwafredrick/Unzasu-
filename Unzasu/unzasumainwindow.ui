@@ -13,7 +13,46 @@
   <property name="windowTitle">
    <string>UnzasuMainWindow</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>865</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+
+color:black;
+border:1px solid grey;
+background-color: rgb(255,255,255);
+padding: 0 8px;
+font:600  11pt;
+
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Welcom to LBTC Students Union Voting Management System </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_mainwindow_login">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>300</y>
+      <width>241</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Login</string>
+    </property>
+   </widget>
+  </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>

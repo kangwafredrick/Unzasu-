@@ -1,5 +1,6 @@
 #ifndef UNZASUMAINWINDOW_H
 #define UNZASUMAINWINDOW_H
+#include "login.h"
 
 #include <QMainWindow>
 
@@ -17,7 +18,11 @@ public:
     UnzasuMainWindow(QWidget *parent = nullptr);
     ~UnzasuMainWindow();
 
+private slots:
+    void on_btn_mainwindow_login_clicked();
+
 private:
+    Login *ptrLogin;
     Ui::UnzasuMainWindow *ui;
 };
 #endif // UNZASUMAINWINDOW_H

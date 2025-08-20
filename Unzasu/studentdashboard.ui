@@ -6,13 +6,38 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>1026</width>
+    <height>634</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>865</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+
+color:black;
+border:1px solid grey;
+background-color: rgb(255,255,255);
+padding: 0 8px;
+font:600  11pt;
+
+
+}</string>
+   </property>
+   <property name="text">
+    <string>Stdents' Dashboard LBTC students Union Voting System</string>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>
