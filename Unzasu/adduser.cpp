@@ -12,3 +12,15 @@ AddUser::~AddUser()
 {
     delete ui;
 }
+
+void AddUser::on_btn_submit_user_clicked()
+{
+
+}
+
+
+void AddUser::on_btn_reset_user_clicked()
+{
+
+}
+

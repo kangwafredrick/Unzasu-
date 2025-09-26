@@ -13,6 +13,12 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog{
+
+color:black;
+}</string>
+  </property>
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
@@ -74,7 +80,7 @@ font:600  11pt;
     </rect>
    </property>
    <property name="text">
-    <string> </string>
+    <string/>
    </property>
    <property name="icon">
     <iconset theme="user-available"/>
@@ -94,6 +100,14 @@ font:600  11pt;
      <width>401</width>
      <height>51</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+
+color:black;
+
+
+}</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="lineEdit_password_login">
@@ -115,6 +129,16 @@ font:600  11pt;
      <height>41</height>
     </rect>
    </property>
+   <item>
+    <property name="text">
+     <string>Admin</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Student</string>
+    </property>
+   </item>
   </widget>
   <widget class="QPushButton" name="btn_submit_login">
    <property name="geometry">

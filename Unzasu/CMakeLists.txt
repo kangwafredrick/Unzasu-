@@ -17,6 +17,10 @@ set(PROJECT_SOURCES
         unzasumainwindow.cpp
         unzasumainwindow.h
         unzasumainwindow.ui
+        dashboard.h
+        dashboard.cpp
+        dashboard.ui
+
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
@@ -24,9 +28,12 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
         login.h login.cpp login.ui
-        unzasudashboard.h unzasudashboard.cpp unzasudashboard.ui
-        studentdashboard.h studentdashboard.cpp studentdashboard.ui
+
+
         adduser.h adduser.cpp adduser.ui
+        mydb.h mydb.cpp
+        dashboard.h dashboard.cpp dashboard.ui
+        admindashboard.h admindashboard.cpp admindashboard.ui
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Unzasu APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

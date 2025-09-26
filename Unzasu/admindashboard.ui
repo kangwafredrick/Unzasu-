@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>StudentDashboard</class>
- <widget class="QDialog" name="StudentDashboard">
+ <class>AdminDashboard</class>
+ <widget class="QDialog" name="AdminDashboard">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1026</width>
-    <height>634</height>
+    <width>745</width>
+    <height>377</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,24 +18,12 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>865</width>
+     <width>745</width>
      <height>61</height>
     </rect>
    </property>
-   <property name="styleSheet">
-    <string notr="true">QPushButton{
-
-color:black;
-border:1px solid grey;
-background-color: rgb(255,255,255);
-padding: 0 8px;
-font:600  11pt;
-
-
-}</string>
-   </property>
    <property name="text">
-    <string>Stdents' Dashboard LBTC students Union Voting System</string>
+    <string>Admin Dashboard</string>
    </property>
   </widget>
  </widget>

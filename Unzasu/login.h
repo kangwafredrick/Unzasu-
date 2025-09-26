@@ -1,5 +1,7 @@
 #ifndef LOGIN_H
 #define LOGIN_H
+#include "dashboard.h"
+#include "admindashboard.h"
 
 #include <QDialog>
 
@@ -21,7 +23,13 @@ private slots:
     void on_btn_Reset_login_clicked();
 
 private:
+    //Creating a dashboard object
+    Dashboard *ptrDashboard;
+    AdminDashboard *ptrAdminDashboard;
+
     Ui::Login *ui;
+
+
 };
 
 #endif // LOGIN_H

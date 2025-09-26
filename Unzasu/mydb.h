@@ -16,6 +16,7 @@
 #include<QBuffer>
 #include<QByteArray>
 #include<QFile>
+#include<QDebug>
 
 class MyDB
 {
@@ -29,7 +30,7 @@ public:
     static void   ResetInstance();
 
 
-    QSqlDatabase getInstance();
+    QSqlDatabase getDBInstance();
     ~MyDB();
 };
 
